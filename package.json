@@ -48,14 +48,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patrick1kenne/react-native-usercard.git"
+    "url": "git+https://github.com/afrikpay/react-native-usercard.git"
   },
   "author": "patrick1kenne <p.kenne@it.afrikpay.com> (https://github.com/patrick1kenne)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/patrick1kenne/react-native-usercard/issues"
   },
-  "homepage": "https://github.com/patrick1kenne/react-native-usercard#readme",
+  "homepage": "https://github.com/afrikpay/react-native-usercard#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -81,7 +81,7 @@
     "react-native": "0.79.6",
     "react-native-builder-bob": "^0.40.13",
     "release-it": "^17.10.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.2.2"
   },
   "peerDependencies": {
     "react": "*",
