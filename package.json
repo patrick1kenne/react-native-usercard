@@ -2,11 +2,11 @@
   "name": "react-native-usercard",
   "version": "0.1.3",
   "description": "User Profile",
+  "source": "./src/index.tsx",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
     ".": {
-      "source": "./src/index.tsx",
       "types": "./lib/typescript/src/index.d.ts",
       "default": "./lib/module/index.js"
     },
