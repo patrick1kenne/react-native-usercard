@@ -1,6 +1,6 @@
 {
   "name": "react-native-usercard",
-  "version": "0.1.2",
+  "version": "0.1.1",
   "description": "User Profile",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -38,7 +38,7 @@
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli lib",
     "prepare": "bob build",
-    "release": "release-it"
+    "release": "release-it --only-version"
   },
   "keywords": [
     "react-native",
@@ -112,7 +112,8 @@
       "publish": false
     },
     "github": {
-      "release": true
+      "release": true,
+      "tokenRef": "GITHUB_TOKEN"
     },
     "plugins": {
       "@release-it/conventional-changelog": {
