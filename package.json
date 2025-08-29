@@ -58,6 +58,7 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
+  
   "devDependencies": {
     "@commitlint/config-conventional": "^19.6.0",
     "@eslint/compat": "^1.2.7",
