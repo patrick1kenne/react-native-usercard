@@ -1,6 +1,6 @@
 {
   "name": "react-native-usercard",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "User Profile",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
